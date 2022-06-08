@@ -19,7 +19,7 @@ export default function Home() {
     <>
       <Header />
 
-      <Stack minH={'94.1vh'} direction={{ base: 'column', md: 'row' }}>
+      <Stack minH={'94vh'} direction={{ base: 'column', md: 'row' }}>
         <Flex p={8} flex={1} align={'center'} justify={'center'}>
           <Stack spacing={6} w={'full'} maxW={'lg'}>
             <Heading fontSize={{ base: '3xl', md: '4xl', lg: '5xl' }}>
